@@ -10,7 +10,7 @@ body{
 .display__icons{
     background-color: #0b0b11;
     display: flex;
-    justify-content: column;
+    flex-direction: column;
     width: 70px;
     padding: 3px;
 }
@@ -32,6 +32,7 @@ body{
     border-radius: 30px;
     display: flex;
     justify-content: column;
+    align-items: flex-start;
 }
 
 .display__partes{
@@ -51,11 +52,15 @@ body{
     font-style: normal;
     color: white;
     margin-left: 10px;
+    height: 20px;
 }
 
 .display__icons__main{
     width: 70px;
     padding: 3px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icons__main{
@@ -65,4 +70,6 @@ body{
     width: 160px;
     border-radius: 20px;
     margin-top: 10px;
+    height: 35px;
 }
+
