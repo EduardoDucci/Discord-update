@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
 body{
     background-color: #0b0b11;
     margin: 0;
+    margin-top: 20px;
 }
 
 
@@ -14,7 +16,6 @@ body{
 }
 
 .icons{
-    background-color: #0b0b11;
     margin: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -25,6 +26,12 @@ body{
 .main{
     background-color: #16171e;
     padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 270px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: column;
 }
 
 .display__partes{
@@ -33,5 +40,29 @@ body{
 }
 
 #ut{
+    margin-top: 10px;
     width: 70px;
+}
+
+#mensagens{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    margin-left: 10px;
+}
+
+.display__icons__main{
+    width: 70px;
+    padding: 3px;
+}
+
+.icons__main{
+    margin: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 160px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
